@@ -1,0 +1,288 @@
+---
+import parseTomlToJson from "@/lib/utils/parseTomlToJson";
+
+const config = parseTomlToJson("./src/config/config.toml");
+
+interface CybersecuritySchemaProps {
+  pageType?: 'homepage' | 'service' | 'pricing' | 'contact' | 'blog';
+  title?: string;
+  description?: string;
+  serviceName?: string;
+  price?: string;
+  currency?: string;
+}
+
+const {
+  pageType = 'homepage',
+  title,
+  description,
+  serviceName,
+  price,
+  currency = 'USD'
+} = Astro.props as CybersecuritySchemaProps;
+
+const baseUrl = config.site.base_url;
+const currentUrl = new URL(Astro.url.pathname, Astro.site).href;
+
+// Enhanced Organization Schema for Cybersecurity
+const cybersecurityOrganizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${baseUrl}#organization`,
+  "name": "genshot",
+  "url": baseUrl,
+  "logo": {
+    "@type": "ImageObject",
+    "url": `${baseUrl}/images/logo-Genshot.svg`,
+    "width": 300,
+    "height": 100
+  },
+  "description": "AI-Powered Blockchain Agent for launching tokens in seconds",
+  "foundingDate": "2025",
+  "industry": ["Agent", "Information Security", "Software", "Artificial Intelligence"],
+  "knowsAbout": [
+    "Token Creation",
+    "AI-Powered DEX"
+  ],
+  "serviceArea": {
+    "@type": "Place",
+    "name": "India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "@id": `${baseUrl}#offerCatalog`,
+    "name": "Token Creation",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "@id": `${baseUrl}/pricing#redteam`,
+        "name": "GenShot AI Agent",
+        "description": "From Idea to Liquid Markets in 7 Seconds",
+        "category": "Token Creation",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI-Powered Token Creation",
+          "serviceType": "AI Agent",
+          "provider": {
+            "@type": "Organization",
+            "name": "Genshot"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": `${baseUrl}/pricing#pentest`,
+        "name": "Automated Token creation", 
+        "description": "Token creation with automated discovery and AI-Powered DEX",
+        "category": "Security Testing",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Automated Token creation",
+          "serviceType": "Security Assessment"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": `${baseUrl}/pricing#compliance`,
+        "name": "Compliance Testing",
+        "description": "Automated compliance testing for SOC 2, ISO 27001, PCI DSS, HIPAA, and NIST frameworks",
+        "category": "Compliance Assessment",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Compliance Testing Services",
+          "serviceType": "Regulatory Compliance"
+        }
+      }
+    ]
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91 73064 54612",
+      "contactType": "Business Support",
+      "email": "kanduruabhiram@gmail.com",
+      "availableLanguage": ["English"],
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "quantumworld394@gmail.com",
+      "contactType": "Technical Support",
+      "availableLanguage": ["English"]
+    }
+  ],
+  "sameAs": [
+    "https://twitter.com/genshot",
+    "https://linkedin.com/company/genshot", 
+    "https://github.com/genshot"
+  ],
+  "location": {
+    "@type": "Place",
+    "name": "Global Operations",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Global"
+    }
+  }
+};
+
+// Professional Service Schema for Cybersecurity
+const professionalServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": `${baseUrl}#professionalService`,
+  "name": "genshot Cybersecurity Services",
+  "url": baseUrl,
+  "description": "Professional cybersecurity services including AI-powered penetration testing, red team operations, and compliance testing",
+  "provider": {
+    "@type": "Organization",
+    "@id": `${baseUrl}#organization`
+  },
+  "serviceType": "Cybersecurity",
+  "category": [
+    "Information Security",
+    "Penetration Testing", 
+    "Red Team Operations",
+    "Vulnerability Assessment",
+    "Compliance Testing"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Enterprise Security Testing",
+        "description": "Comprehensive security testing for enterprise environments",
+        "category": "Enterprise Security"
+      },
+      {
+        "@type": "Offer", 
+        "name": "Cloud Security Assessment",
+        "description": "Multi-cloud security testing for AWS, Azure, and GCP environments",
+        "category": "Cloud Security"
+      },
+      {
+        "@type": "Offer",
+        "name": "DevSecOps Integration",
+        "description": "Continuous security testing integration with CI/CD pipelines",
+        "category": "DevSecOps"
+      }
+    ]
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": ["Enterprise", "Technology Companies", "Financial Services", "Healthcare Organizations"],
+    "geographicArea": {
+      "@type": "Place",
+      "name": "Global"
+    }
+  },
+  "areaServed": {
+    "@type": "Place", 
+    "name": "Worldwide"
+  }
+};
+
+// Software Application Schema for AI Platform
+const softwareApplicationSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": `${baseUrl}#software`,
+  "name": "genshot AI Red Team Platform",
+  "url": baseUrl,
+  "description": "AI-powered autonomous red team platform for continuous cybersecurity testing and vulnerability assessment",
+  "applicationCategory": "SecurityApplication",
+  "operatingSystem": ["Web Browser", "SaaS", "Cloud"],
+  "creator": {
+    "@type": "Organization",
+    "@id": `${baseUrl}#organization`
+  },
+  "publisher": {
+    "@type": "Organization", 
+    "@id": `${baseUrl}#organization`
+  },
+  "downloadUrl": `${baseUrl}/contact/`,
+  "installUrl": `${baseUrl}/contact/`,
+  "screenshot": `${baseUrl}/images/genshot-ai-red-team-dashboard.png`,
+  "featureList": [
+    "Autonomous AI-powered testing",
+    "MITRE ATT&CK framework integration",
+    "OWASP compliance testing",
+    "Continuous vulnerability assessment",
+    "Real-time threat simulation",
+    "Automated report generation",
+    "Multi-cloud support (AWS, Azure, GCP)",
+    "DevSecOps integration",
+    "Compliance framework support"
+  ],
+  "requirements": "Modern web browser",
+  "releaseNotes": "Latest version includes enhanced AI algorithms and expanded MITRE ATT&CK technique coverage",
+  "offers": {
+    "@type": "Offer",
+    "price": "Contact for pricing",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "@id": `${baseUrl}#organization`
+    }
+  }
+};
+
+// Technology Stack Schema
+const techStackSchema = {
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "@id": `${baseUrl}#techstack`,
+  "name": "genshot Technology Stack",
+  "description": "Advanced technology stack powering AI-driven cybersecurity testing",
+  "about": {
+    "@type": "Thing",
+    "name": "Cybersecurity Technology"
+  },
+  "mentions": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "MITRE ATT&CK Framework"
+    },
+    {
+      "@type": "SoftwareApplication", 
+      "name": "OWASP Testing Guide"
+    },
+    {
+      "@type": "Thing",
+      "name": "Artificial Intelligence"
+    },
+    {
+      "@type": "Thing",
+      "name": "Machine Learning"
+    },
+    {
+      "@type": "Thing",
+      "name": "Natural Language Processing"
+    }
+  ]
+};
+
+// Compile schemas based on page type
+const schemas: any[] = [cybersecurityOrganizationSchema, professionalServiceSchema];
+
+switch (pageType) {
+  case 'homepage':
+    schemas.push(softwareApplicationSchema, techStackSchema);
+    break;
+  case 'service':
+    schemas.push(softwareApplicationSchema);
+    break;
+  case 'pricing':
+    // Add pricing-specific schema if needed
+    break;
+}
+---
+
+{schemas.map((schema, index) => (
+  <script 
+    type="application/ld+json" 
+    data-schema={`cybersecurity-${index}`}
+    set:html={JSON.stringify(schema, null, 2)} 
+  />
+))}

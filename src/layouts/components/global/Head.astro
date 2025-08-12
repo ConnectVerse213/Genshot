@@ -1,0 +1,169 @@
+---
+import SEO from "@/components/seo/Seo.astro";
+import Font from "@/components/widgets/Font.astro";
+import OpenGraph from "@/components/seo/OpenGraph.astro";
+import Favicons from "@/components/seo/Favicons.astro";
+import AdvancedSchema from "@/layouts/components/seo/AdvancedSchema.astro";
+import CybersecuritySchema from "@/layouts/components/seo/CybersecuritySchema.astro";
+import FAQSchema from "@/layouts/components/seo/FAQSchema.astro";
+import TestimonialSchema from "@/layouts/components/seo/TestimonialSchema.astro";
+import PricingSchema from "@/layouts/components/seo/PricingSchema.astro";
+import VideoSchema from "@/layouts/components/seo/VideoSchema.astro";
+import ArticleSchema from "@/layouts/components/seo/ArticleSchema.astro";
+import CoreWebVitals from "@/layouts/components/seo/CoreWebVitals.astro";
+import AdvancedSEOAnalysis from "@/layouts/components/seo/AdvancedSEOAnalysis.astro";
+import GoogleAnalytics from "@/layouts/components/analytics/GoogleAnalytics.astro";
+import GoogleSearchConsole from "@/layouts/components/analytics/GoogleSearchConsole.astro";
+import GoogleTagManager from "@/layouts/components/analytics/GoogleTagManager.astro";
+import TrackingScript from "@/layouts/components/analytics/TrackingScript.astro";
+import parseTomlToJson from "@/lib/utils/parseTomlToJson.ts";
+import theme from "@/config/theme.json";
+import JsonLD from "../widgets/JsonLD.astro";
+
+const config = parseTomlToJson("./src/config/config.toml");
+const themeColor = theme.colors.default.theme_color.primary;
+---
+
+<head>
+  <!------------
+    General
+-------------->
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Language" content={Astro.currentLocale} />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=5"
+  />
+  
+  <!------------
+    Security
+-------------->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  
+  <!------------
+    SEO Enhanced
+-------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://umami.is" />
+  
+  <!-- Alternate language links for SEO -->
+  <link rel="alternate" hreflang="en" href={`${config.site.base_url}/en/`} />
+  <link rel="alternate" hreflang="es" href={`${config.site.base_url}/es/`} />
+  <link rel="alternate" hreflang="fr" href={`${config.site.base_url}/fr/`} />
+  <link rel="alternate" hreflang="pt" href={`${config.site.base_url}/pt/`} />
+  <link rel="alternate" hreflang="x-default" href={config.site.base_url} />
+  
+  <!-- Enhanced sitemap links -->
+  <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
+  <link rel="sitemap" type="application/xml" href="/sitemap-enhanced.xml" />
+  
+  <SEO {...Astro.props} />
+  <meta
+    name="theme-color"
+    media="(prefers-color-scheme: light)"
+    content={themeColor || "#fff"}
+  />
+  <meta
+    name="theme-color"
+    media="(prefers-color-scheme: dark)"
+    content="#000"
+  />
+  <meta name="generator" content={Astro.generator} />
+  
+  <!-- Enhanced meta tags for cybersecurity focus -->
+  <meta name="category" content="cybersecurity" />
+  <meta name="classification" content="Business" />
+  <meta name="coverage" content="Worldwide" />
+  <meta name="distribution" content="Global" />
+  <meta name="rating" content="General" />
+  <meta name="target" content="enterprise" />
+  
+  {
+    config.head?.content && (
+      // Injecting custom scripts such as Google Analytics, Google Tag Manager, etc. tracking code,
+      // which should be placed in <head> tag
+      <Fragment set:html={config.head?.content} />
+    )
+  }
+  <OpenGraph {...Astro.props} />
+  <Favicons />
+  
+  <!-- Google Search Console Verification -->
+  <GoogleSearchConsole />
+  
+  <JsonLD
+    content={{
+      ...Astro.props,
+    }}
+  />
+  
+  <!-- Advanced Schema.org structured data -->
+  <AdvancedSchema {...Astro.props} />
+  
+  <!-- Cybersecurity-specific Schema.org -->
+  <CybersecuritySchema 
+    pageType={Astro.url.pathname === '/' ? 'homepage' : 
+              Astro.url.pathname.includes('/pricing') ? 'pricing' :
+              Astro.url.pathname.includes('/contact') ? 'contact' :
+              Astro.url.pathname.includes('/blog') ? 'blog' : 'service'} 
+    {...Astro.props} 
+  />
+
+  <!-- FAQ Schema for FAQ pages -->
+  {Astro.url.pathname.includes('/faq') && (
+    <FAQSchema {...Astro.props} />
+  )}
+
+  <!-- Testimonial Schema for pages with testimonials -->
+  {(Astro.url.pathname === '/' || Astro.url.pathname.includes('/testimonial')) && (
+    <TestimonialSchema {...Astro.props} />
+  )}
+
+  <!-- Pricing Schema for pricing pages -->
+  {Astro.url.pathname.includes('/pricing') && (
+    <PricingSchema {...Astro.props} />
+  )}
+
+  <!-- Video Schema for demo and video pages -->
+  {(Astro.url.pathname.includes('/demo') || Astro.url.pathname === '/') && (
+    <VideoSchema 
+      videoType="demo"
+      videoTitle="genshot AI Red Team Platform Demo"
+      videoDescription="Watch how our AI-powered red team platform autonomously identifies vulnerabilities and conducts comprehensive security testing"
+      {...Astro.props} 
+    />
+  )}
+
+  <!-- Article Schema for blog posts and technical articles -->
+  {Astro.url.pathname.includes('/blog') && (
+    <ArticleSchema {...Astro.props} />
+  )}
+
+  <!-- Core Web Vitals Monitoring -->
+  <CoreWebVitals />
+
+  <!-- Advanced SEO Analysis -->
+  <AdvancedSEOAnalysis />
+
+  <!-- Google Tag Manager -->
+  <GoogleTagManager />
+
+  <!-- Google Analytics -->
+  <GoogleAnalytics />
+
+  <!-- Enhanced Event Tracking -->
+  <TrackingScript />
+
+  <!------------------
+    Google Fonts
+-------------------->
+  <Font />
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="/images/logo-Genshot.svg" as="image" type="image/svg+xml" />
+  <link rel="modulepreload" href="/_astro/main.js" />
+</head>

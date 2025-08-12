@@ -1,0 +1,198 @@
+{
+  "main": [
+    {
+      "enable": true,
+      "name": "Home",
+      "weight": 1,
+      "url": ""
+    },
+    {
+      "enable": true,
+      "name": "Features",
+      "weight": 2,
+      "url": "/content/sections/english/features-section.md"
+    },
+    {
+      "enable": true,
+      "name": "Why Genshot?",
+      "weight": 3,
+      "url": "#why"
+    },
+    {
+      "enable": true,
+      "name": "Pricing",
+      "weight": 4,
+      "url": "/pricing/"
+    },
+
+
+    {
+      "enable": false,
+      "name": "AI Red Team",
+      "weight": 2,
+      "hasMegaMenu": true,
+      "cta": {
+        "enable": true,
+        "image": "/images/genshot-ai-red-team-dashboard.png",
+        "title": "Experience AI Red Team Testing",
+        "description": "See how our autonomous AI agents identify vulnerabilities in your systems.",
+        "cta_btn": {
+          "enable": true,
+          "label": "Book a Demo",
+          "url": "https://topmate.io/pranavverma",
+          "rel": "",
+          "target": "_blank"
+        }
+      },
+      "menus": [
+        {
+          "enable": false,
+          "children": [
+            {
+              "enable": true,
+              "icon": "/images/icons/svg/security.svg",
+              "name": "Autonomous Agents",
+              "description": "AI-powered autonomous agents eliminate manual testing by conducting comprehensive security assessments automatically.",
+              "url": "/ai-red-team/"
+            },
+            {
+              "enable": true,
+              "icon": "/images/icons/svg/focus.svg",
+              "name": "MITRE ATT&CK Coverage",
+              "description": "Full coverage of MITRE ATT&CK framework tactics and techniques to simulate real-world attack scenarios.",
+              "url": "/ai-red-team/"
+            },
+            {
+              "enable": true,
+              "icon": "/images/icons/svg/time.svg",
+              "name": "OWASP Top 10 Coverage",
+              "description": "Complete testing coverage for all OWASP Top 10 vulnerabilities including injection attacks, broken authentication, and security misconfigurations.",
+              "url": "/ai-red-team/"
+            },
+            {
+              "enable": true,
+              "icon": "/images/icons/svg/data.svg",
+              "name": "Integration",
+              "description": "Connect seamlessly with your existing tools and workflows.",
+              "url": "/integration/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resources",
+      "enable": false,
+      "weight": 3,
+      "hasChildren": true,
+      "children": [
+        {
+          "enable": true,
+          "name": "Pricing",
+          "url": "/pricing/",
+          "weight": 1
+        },
+        {
+          "enable": true,
+          "name": "Faq",
+          "url": "/faq/",
+          "weight": 2
+        },
+        {
+          "enable": true,
+          "name": "Integration",
+          "url": "/integration/",
+          "weight": 3
+        },
+        {
+          "enable": true,
+          "name": "Blog",
+          "url": "/blog/",
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "enable": false,
+      "name": "Contact",
+      "url": "/contact/",
+      "weight": 4,
+      "badge": {
+        "enable": true,
+        "label": "NEW",
+        "color": "danger",
+        "_color_comment": "color expected value - primary, info, success, danger",
+        "type": "dot",
+        "_type_comment": "type expected value - text, dot"
+      }
+    }
+  ],
+  "footer_menu": [
+    {
+      "enable": true,
+      "name": "Terms & Conditions",
+      "url": "/terms-conditions/",
+      "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "Privacy & Policy",
+      "url": "/privacy-policy/",
+      "weight": 0
+    }
+  ],
+  "footer_menu_quick_link": [
+    {
+      "enable": true,
+      "name": "Pricing",
+      "url": "/pricing/",
+      "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "Integration",
+      "url": "/integration/",
+      "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "AI Red Team",
+      "url": "/ai-red-team/",
+      "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "Faq",
+      "url": "/faq/",
+      "weight": 0
+    }
+  ],
+  "footer_menu_resources": [
+    {
+      "enable": true,
+      "name": "Blog",
+      "url": "/blog/",
+      "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "Integration",
+      "url": "/integration/",
+      "weight": 0
+    }
+  ],
+  "footer_menu_legal": [
+    {
+      "enable": true,
+      "name": "Terms of Conditions",
+      "url": "/terms-conditions/",
+      "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "Privacy Policy",
+      "url": "/privacy-policy/",
+      "weight": 0
+    }
+  ]
+}
