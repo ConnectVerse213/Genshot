@@ -3,9 +3,6 @@
   "description": "A highly customizable saas & startup astro theme built with Tailwind CSS and Astro Js",
   "type": "module",
   "version": "1.0.1",
-  "author": "getastrothemes",
-  "license": "UNLICENSED",
-  "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
