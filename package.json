@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && npm run remove-draft-from-sitemap",
+    "build": "npx astro build && npm run remove-draft-from-sitemap",
     "preview": "astro preview",
     "check": "astro check",
     "build:cf": "wrangler pages dev dist",
@@ -15,7 +15,8 @@
     "remove-multilingual": "node scripts/remove-multilingual.mjs",
     "optimize-media": "node scripts/optimize-media.mjs",
     "generate-favicons": "node scripts/generate-favicons.mjs",
-    "test": "jest"
+    "test": "jest",
+    "vercel-build": "npm install && npm run build"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
