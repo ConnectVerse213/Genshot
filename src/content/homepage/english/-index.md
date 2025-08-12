@@ -1,6 +1,6 @@
 ---
 title: ""
-meta_description: This is a example description
+meta_description: Our AI-Powered Blockchain Agent helps to launch your token in seconds with AI
 
 # Override Default Content of `/faq/-index.md`
 # Uncomment key values that you want to override
