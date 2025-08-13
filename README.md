@@ -50,11 +50,11 @@ Genshot is an **AI-powered token launchpad** that enables anyone to create, depl
 
 ## 📞 Get Started
 
-🔗 **Website**: [genshot.xyz](https://genshot.vercel.app) *(placeholder)*  
-📅 **Book a Demo**: [Calendly](https://calendly.com/quantumworld394/30min) *(placeholder)*  
+🔗 **Website**: [genshot.vercel.app](https://genshot.vercel.app)  
+📅 **Book a Demo**: [Calendly](https://calendly.com/quantumworld394/30min)
 📢 **Join Our Community**:  
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram)](https://t.me/connectverse)  
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter)](https://x.com/ConnectVerse3)  
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat&logo=telegram)](https://t.me/connectverseweb3)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter)](https://x.com/connectverse3)  
 
 ## 💡 The Vision
 

@@ -29,7 +29,7 @@ social:
 
 # Check config.toml file for form action related settings
 form:
-  email_subject: "New form submission from upstart website" # Customized email subject (applicable when anyone submit form, form submission may receive by email depend on provider)
+  email_subject: "New Contact Form submission from Genshot" # Customized email subject (applicable when anyone submit form, form submission may receive by email depend on provider)
   submit_button:
     label: "Submit"
   # This note will show at the end of form
