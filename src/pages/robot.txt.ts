@@ -19,7 +19,7 @@ Allow: /pricing/
 Allow: /contact/
 Allow: /blog/
 Allow: /integration/
-Allow: /ai-red-team/
+Allow: /genshot-ai/
 Allow: /faq/
 Allow: /changelog/
 
@@ -153,7 +153,7 @@ Allow: /blog/
 Allow: /faq/
 Allow: /pricing/
 Allow: /integration/
-Allow: /ai-red-team/
+Allow: /genshot-ai/
 Allow: /changelog/
 Allow: /en/
 Allow: /es/
@@ -169,7 +169,7 @@ Allow: /blog/
 Allow: /faq/
 Allow: /pricing/
 Allow: /integration/
-Allow: /ai-red-team/
+Allow: /genshot-ai/
 Allow: /changelog/
 Allow: /en/
 Allow: /es/
@@ -194,7 +194,7 @@ Allow: /blog/
 Allow: /faq/
 Allow: /pricing/
 Allow: /integration/
-Allow: /ai-red-team/
+Allow: /genshot-ai/
 Disallow: /contact/
 Disallow: /admin/
 
@@ -203,7 +203,7 @@ Allow: /blog/
 Allow: /faq/
 Allow: /pricing/
 Allow: /integration/
-Allow: /ai-red-team/
+Allow: /genshot-ai/
 Allow: /changelog/
 Disallow: /contact/
 Disallow: /admin/
@@ -223,7 +223,7 @@ Allow: /blog/
 Allow: /faq/
 Allow: /pricing/
 Allow: /integration/
-Allow: /ai-red-team/
+Allow: /genshot-ai/
 Disallow: /contact/
 Disallow: /admin/
 

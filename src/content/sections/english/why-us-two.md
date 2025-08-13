@@ -1,11 +1,11 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
-subtitle: Advanced Security Testing
-title: AI-Powered **Cybersecurity** Testing Platform
+subtitle: The Solution
+title: AI-Powered **Multi-chain** Launchpad
 layout_type: modern # creative / modern
 
 list:
-  - title: Autonomous AI agents conduct 24/7 security testing using MITRE ATT&CK framework and OWASP methodologies
+  - title: "Type 'Create a meme coin: 1B supply, 5% tax, auto LP on Base' and Genshot AI deploys an audited contract in <3 sec, auto-lists on top DEXs with deep liquidity, and launches trading in **7 seconds** flat"
     title_size: sm # sm | md (default - md)
     image: "/images/why-us/4.png"
     description_font_size: "" # sm | lg (default - sm)
@@ -16,7 +16,7 @@ list:
       url: /contact/
       rel: ""
       target: ""
-  - title: Comprehensive threat simulation including Advanced Persistent Threats (APT) and real-world attack scenarios
+  - title: Advanced Automation Solution for **Token creation** and **DEX** Powered AI Launchpad
     title_size: sm # sm | md (default - md)
     image: "/images/why-us/5.png"
     description_font_size: "" # sm | lg (default - sm)
@@ -27,15 +27,15 @@ list:
       url: /pricing/
       rel: ""
       target: ""
-  - title: Multi-cloud security testing **for AWS, Azure, and Google Cloud** with compliance reporting for SOC 2, ISO 27001, and PCI DSS
+  - title: Our AI-Powered Multi-chain Launchpad supports major EVM chains **like Ethereum, Binance, Avalanche, Arbitrum, Polygon, Monad, Base, Linea** and  many more. 
     title_size: sm # sm | md (default - md)
     image: "/images/why-us/6.png"
     description_font_size: "" # sm | lg (default - sm)
     description:
     cta_btn:
       enable: true
-      label: Learn More
-      url: /pricing/
+      label: Join waitlist
+      url: https://forms.gle/REs1cy1qLQjJR9rMA
       rel: ""
       target: ""
 ---

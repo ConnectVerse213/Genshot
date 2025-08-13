@@ -4,20 +4,14 @@ import { getLocaleUrlCTM } from "../lib/utils/languageParser";
 const paths = [
   "http://localhost:4321",
   "http://localhost:4321/en",
-  "http://localhost:4321/fr",
   "http://localhost:4321/pricing",
   "http://localhost:4321/en/pricing",
-  "http://localhost:4321/fr/pricing",
   "http://localhost:4321/frog",
-  "http://localhost:4321/fr/frog",
   "http://localhost:4321/en/engineer",
 
   "",
   "/en",
-  "/fr",
   "/en/pricing",
-  "/fr/pricing",
-  "/fr/frog",
   "/en/engineer",
   "/engineer",
   "/frog",
@@ -25,20 +19,14 @@ const paths = [
 
   "http://localhost:4321/",
   "http://localhost:4321/en/",
-  "http://localhost:4321/fr/",
   "http://localhost:4321/en/pricing/",
-  "http://localhost:4321/fr/pricing/",
-  "http://localhost:4321/fr/frog/",
   "http://localhost:4321/en/engineer/",
   "http://localhost:4321/frog/",
   "http://localhost:4321/engineer/",
 
   "/",
   "/en/",
-  "/fr/",
   "/en/pricing/",
-  "/fr/pricing/",
-  "/fr/frog/",
   "/en/engineer/",
   "/frog/",
   "/engineer/",
@@ -69,9 +57,6 @@ describe("getLocaleUrlCTM", () => {
     } else {
       // Ensure "/en" is not present for the default language
       expect(defaultLangSegments.includes("en")).toBe(true);
-
-      // Check if "/fr" exists as a standalone segment for the other language
-      expect(otherLangSegments.includes("fr")).toBe(true);
     }
 
     // Ensure trailing slash is as per configuration

@@ -9,13 +9,13 @@ contact_list:
   list:
     - icon: "/images/icons/svg/phone.svg"
       label: "Call us now"
-      value: "+57 320 545 1915"
+      value: "+91 730 645 4612"
     - icon: "/images/icons/svg/email.svg"
       label: "Email us"
-      value: "hi@genshot.com"
-    - icon: "/images/icons/svg/whatsapp.svg"
+      value: "business.genshot@gmail.com"
+    - icon: "/images/icons/svg/twitter.svg"
       label: "Chat with us"
-      value: "@genshot"
+      value: "@ConnectVerse3"
 
 social:
   enable: true
@@ -134,7 +134,7 @@ form:
       type: "radio"
       half_width: true
       default_value: ""
-    - label: "I agree to the terms and conditions and [privacy policy](/contact/)." # only valid for type="checkbox" & type === "radio"
+    - label: "I agree to the terms and conditions and [privacy policy](/privacy-policy/)." # only valid for type="checkbox" & type === "radio"
       name: "Agreed Privacy" # This is crucial. Its indicate under which name you want to receive this field data
       value: "Agreed" # Value that will be submit (applicable for type="checkbox" & type === "radio")
       checked: false # only valid for type="checkbox" & type === "radio"
@@ -147,23 +147,23 @@ form:
       content: We have received your message! We'll get back to you as soon as possible.
     - note: warning # info | warning | success | deprecated | hint
       parent_class: "hidden message error"
-      content: Something went wrong! please use this mail - [upstart-astro-theme@gmail.com](mailto:upstart-astro-theme@gmail.com) to submit a ticket!
+      content: Something went wrong! please use this mail - [business.genshot@gmail.com](mailto:business.genshot@gmail.com) to submit a ticket!
     # - note: info # info | warning | success | deprecated | hint
     #   parent_class: "text-sm message success"
     #   content: We have received your message! We'll get back to you as soon as possible.
     # - note: warning # info | warning | success | deprecated | hint
     #   parent_class: "text-sm message error"
-    #   content: Something went wrong! please use this mail - [upstart-astro-theme@gmail.com](mailto:upstart-astro-theme@gmail.com) to submit a ticket!
+    #   content: Something went wrong! please use this mail - [business.genshot@gmail.com](mailto:business.genshot@gmail.com) to submit a ticket!
     # - note: success # info | warning | success | deprecated | hint
     #   parent_class: "text-sm message success"
     #   content: We have received your message! We'll get back to you as soon as possible.
     # - note: deprecated # info | warning | success | deprecated | hint
     #   parent_class: "text-sm message error"
-    #   content: Something went wrong! please use this mail - [upstart-astro-theme@gmail.com](mailto:upstart-astro-theme@gmail.com) to submit a ticket!
+    #   content: Something went wrong! please use this mail - [business.genshot@gmail.com](mailto:business.genshot@gmail.com) to submit a ticket!
     # - note: hint # info | warning | success | deprecated | hint
     #   parent_class: "text-sm message error"
-    #   content: Something went wrong! please use this mail - [upstart-astro-theme@gmail.com](mailto:upstart-astro-theme@gmail.com) to submit a ticket!
+    #   content: Something went wrong! please use this mail - [business.genshot@gmail.com](mailto:business.genshot@gmail.com) to submit a ticket!
     # - note: we # info | warning | success | deprecated | hint
     #   parent_class: "text-sm message error"
-    #   content: Something went wrong! please use this mail - [upstart-astro-theme@gmail.com](mailto:upstart-astro-theme@gmail.com) to submit a ticket!
+    #   content: Something went wrong! please use this mail - [business.genshot@gmail.com](mailto:business.genshot@gmail.com) to submit a ticket!
 ---

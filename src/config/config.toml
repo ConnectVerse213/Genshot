@@ -4,7 +4,7 @@
   description          = "AI-Powered Blockchain Agent - From Idea to Liquid Markets in 7 Seconds" # Shared description for SEO and OpenGraph
   tagline              = "AI-Powered Blockchain Agent"
   tagline_separator    = "" # default is " - " 
-  base_url             = "https://genshot.xyz" # Base URL for the site and used in OpenGraph meta tags.
+  base_url             = "https://genshot.vercel.app" # Base URL for the site and used in OpenGraph meta tags.
   logo                 = "/images/logo-Genshot.svg" # Path to the site's logo
   logo_hover_animation = false # Enable or disable logo hover animation
   logo_text            = "" # Text displayed next to the logo (empty to show only logo)
@@ -28,32 +28,16 @@
   author = "Genshot"
   keywords = [
     # Primary keywords
-    "autonomous red team",
-    "ai penetration testing", 
-    "cybersecurity ai agent",
-    "automated vulnerability assessment",
-    "red team automation",
-    "ai security testing",
+    "AI-Powered",
+    "Blockchain", 
+    "AI Agent",
+    "Web3",
+    "ConnectVerse",
     # Secondary keywords
-    "cybersecurity platform",
-    "mitre att&ck framework",
-    "owasp compliance testing",
-    "security vulnerability scanner",
-    "enterprise cybersecurity",
-    "threat simulation platform",
-    "continuous security testing",
-    "security automation tools",
-    "penetration testing as a service",
-    "cyber threat intelligence",
-    # Long-tail keywords
-    "automated penetration testing platform",
-    "ai-powered cybersecurity solutions", 
-    "continuous red team operations",
-    "enterprise security assessment",
-    "cloud security testing platform",
-    "devsecops security automation",
-    "security compliance automation",
-    "cyber resilience testing"
+    "Token Creation",
+    "DEX",
+    "Liquidity Pool",
+    "Automated Workflow"
   ] # Enhanced SEO keywords
   robots = "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" # Enhanced robots directive
 
@@ -78,9 +62,9 @@
   [seo.schema]
     enable = true
     organization_name = "Genshot"
-    organization_url = "https://genshot.xyz"
-    organization_logo = "https://genshot.xyz/images/logo-Genshot.svg"
-    organization_description = "An AI-Powered Blockchain Agent for launching tokens"
+    organization_url = "https://genshot.vercel.app"
+    organization_logo = "https://genshot.vercel.app/images/logo-Genshot.svg"
+    organization_description = "A Multi-chain AI-Powered platform for launching tokens"
     same_as = [
       "https://twitter.com/ConnectVerse3",
       "https://linkedin.com/company/connect-verse",
@@ -104,7 +88,7 @@
 
   # docs - https://formspree.io/ | https://formsubmit.co/ | https://docs.netlify.com/forms/setup/
   # Form action URL for the contact form (For more settings related to form see "src/content/sections/contact-section.md")
-  contact_form_action = "https://formsubmit.co/alexis@genshot.com" # https://formspree.io/f/kweoweo | https://formsubmit.co/your@email.com | "/"
+  contact_form_action = "https://formsubmit.co/business.genshot@gmail.com" # https://formspree.io/f/kweoweo | https://formsubmit.co/your@email.com | "/"
   # formspree | formsubmit.co | netlify (default is formsubmit.co)
   contact_form_provider = "formsubmit.co"
 
@@ -120,14 +104,14 @@
   [settings.subscription]
     enable      = true # Enables or disable the subscription form
     title       = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the title in different languages or directly add value here if you are not using internationalization feature
-    form_action = "https://gmail.us11.list-manage.com/subscribe/post?u=d870b06d86c16269e4b1f9b39&amp;id=12cf0c6ac2&amp;f_id=007e61e1f0"
+    form_action = "https://app.us6.list-manage.com/subscribe/post?u=7c7ca3d3a17cf649c50f98f20&amp;id=2bea76cd2b&amp;f_id=0054c2e1f0"
 
   # Multilingual settings (check src/config/language.json for changing the languages)
   # NOTE: Manually restart your server when you change the following multilingual table values
   [settings.multilingual]
     # Set `enable` to `true` for enabling the multilingual feature or `false` for disabling it.
     # Run `npm run remove-multilingual` for removing multilingual content files after disabling the feature.
-    enable                   = true
+    enable                   = false
     default_language         = "en"
     disable_languages        = [] # List of languages to disable (eg: ["fr", "es"])
     show_default_lang_in_url = false # Show default language in URL (eg: https://getastrothemes.com/en/)
@@ -136,7 +120,7 @@
   [settings.navigation_button]
     enable = true
     label  = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the navigation button label in different languages or directly add value here if you are not using internationalization feature
-    url    = "https://genshot.xyz/ai-agent"
+    url    = "https://genshot-ai.vercel.app"
 
   [settings.markup.table_of_contents]
     enable      = true

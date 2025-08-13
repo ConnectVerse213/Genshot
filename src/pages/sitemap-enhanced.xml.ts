@@ -14,7 +14,7 @@ export const GET: APIRoute = ({ site }) => {
     { url: 'contact/', changefreq: 'monthly', priority: '0.8' },
     
     // Product pages
-    { url: 'ai-red-team/', changefreq: 'weekly', priority: '0.9' },
+    { url: 'genshot-ai/', changefreq: 'weekly', priority: '0.9' },
     
     // Language versions - High priority
     { url: 'en/', changefreq: 'daily', priority: '1.0' },
@@ -32,9 +32,9 @@ export const GET: APIRoute = ({ site }) => {
     { url: 'fr/contact/', changefreq: 'monthly', priority: '0.8' },
     
     // Product pages in all languages
-    { url: 'en/ai-red-team/', changefreq: 'weekly', priority: '0.9' },
-    { url: 'es/ai-red-team/', changefreq: 'weekly', priority: '0.9' },
-    { url: 'fr/ai-red-team/', changefreq: 'weekly', priority: '0.9' },
+    { url: 'en/genshot-ai/', changefreq: 'weekly', priority: '0.9' },
+    { url: 'es/genshot-ai/', changefreq: 'weekly', priority: '0.9' },
+    { url: 'fr/genshot-ai/', changefreq: 'weekly', priority: '0.9' },
     
     // Blog sections
     { url: 'blog/', changefreq: 'daily', priority: '0.8' },

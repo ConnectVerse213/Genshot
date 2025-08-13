@@ -9,7 +9,7 @@ banner:
   title: "Experience Our **AI Red Team** Platform"
   subtitle: "See how autonomous security testing transforms your cybersecurity posture"
   description: "Watch a comprehensive demonstration of our AI-powered red team capabilities, from vulnerability discovery to automated remediation."
-  image: "/images/product-demo.png"
+  image: "/images/genshot-demo-dashboard.png"
   button:
     label: "Schedule Live Demo"
     link: "https://topmate.io/pranavverma"
@@ -97,35 +97,63 @@ cta:
     link: "/pricing/"
 ---
 
-# AI Red Team Platform Demo
+# Genshot
+## Multi-chain AI-Powered Launchpad
 
-Experience the future of cybersecurity with our comprehensive platform demonstration. See how autonomous AI agents revolutionize security testing, vulnerability management, and threat response.
+From Idea to Liquid Markets in 7 Seconds – The future of token creation is here. No code. No steps. No liquidity headaches. Just launch.
 
-## What Makes Our Platform Unique?
+---
 
-Our AI Red Team platform represents a breakthrough in cybersecurity automation, combining advanced artificial intelligence with proven security methodologies to deliver unprecedented protection for your digital assets.
+## What is Genshot?
 
-### Autonomous Operations
-Watch as our AI agents work independently to:
-- Discover hidden vulnerabilities
-- Simulate real-world attacks
-- Test security controls continuously
-- Adapt to emerging threats
+Genshot is an AI-powered token launchpad that enables anyone to create, deploy, and list tokens on multiple EVM chains instantly. Designed for creators, meme coin enthusiasts, and crypto entrepreneurs, Genshot eliminates the technical and financial barriers of traditional token launches.
 
-### Comprehensive Coverage
-The demonstration showcases coverage across:
-- **Web Applications** - OWASP Top 10 and beyond
-- **Network Infrastructure** - Complete perimeter and internal testing
-- **Cloud Environments** - Multi-cloud security assessment
-- **API Security** - RESTful and GraphQL endpoint testing
+### 🔥 Key Features
 
-### Enterprise-Ready Features
-See how the platform scales for enterprise environments with:
-- Multi-tenant architecture
-- Role-based access controls
-- Advanced compliance reporting
-- Seamless tool integrations
+### True No-Code Token Creation: 
+- **AI-Driven Smart Contracts** – Generate and deploy secure, audited contracts in seconds.
+- **Simple Prompts** – Just type your requirements (e.g., "Create a meme coin: 1B supply, 5% tax, auto LP on Base").
 
-## Ready to See It in Action?
+### Multi-Chain & Multi-DEX Support: 
+- **EVM Chains** – Launch on Base, Arbitrum, Optimism, Polygon, Blast, and more.
+- **Auto-Listing** – Tokens are instantly listed on Genshot DEX and top EVM DEXs (Uniswap, PancakeSwap).
 
-Our demo provides a comprehensive overview of how the AI Red Team platform can transform your security operations. Schedule your personalized demonstration today to see how we can strengthen your cybersecurity posture.
+### Liquidity Autopilot: 
+- **Deep Liquidity** – Automatically provisioned at launch.
+- **Anti-MEV Protection** – Fair-launch mechanics to prevent bot exploitation.
+
+### Ultra-Fast Launch Speed: 
+- **7-Second Deployment** – Capitalize on meme coin hype cycles before they fade.
+
+---
+
+## 🚀 Why Choose Genshot?
+
+**✔ No Developer Tax** 
+- Skip the $5k–$20k Solidity dev costs.
+
+**✔ Zero Deployment Hassles** 
+- Avoid the 12-step nightmare of manual launches.
+
+**✔ Defensible Moats** 
+- First-mover in true no-code EVM token creation.
+
+**✔ Revenue Potential** 
+- Projected $1M+/month at scale with creation fees, trading fees, and premium features.
+
+---
+
+## 📊 Market Opportunity
+
+- **$380M** spent annually on token deployment (CoinGecko).
+- **82%** of creators would pay 2× for one-click simplicity (1,200-user survey).
+
+---
+
+## 💡 The Vision
+
+**The next 100M crypto users won’t be developers. They’ll be creators. And Genshot is their launchpad.**
+
+---
+
+*Genshot - Your AI-Powered Token Launchpad*

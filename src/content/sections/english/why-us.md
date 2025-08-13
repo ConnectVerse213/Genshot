@@ -5,40 +5,45 @@ title: From Idea to Liquid Markets in <br /> **7 seconds**
 layout_type: creative # creative / modern (default - creative)
 
 list:
-  - title: Continuous Security Testing
+  - title: Ideation & Prompting
     image: "/images/why-us/1.png"
     description_font_size: "" # sm | lg (default - sm)
     description: |
-      AI-powered autonomous agents run 24/7 security assessments to identify vulnerabilities before attackers do, eliminating manual testing overhead.
+      You start with your token idea and provide a simple prompt. GenShot’s AI interprets your vision and prepares the token structure automatically.
     cta_btn:
       enable: false
       label: ""
       url: ""
       rel: ""
       target: ""
-  - title: MITRE ATT&CK Coverage
+  - title: Automated Deployment & Setup
     image: "/images/why-us/2.png"
     description_font_size: "" # sm | lg (default - sm)
     description: |
-      Full coverage of MITRE ATT&CK framework tactics and techniques to simulate real-world attack scenarios with comprehensive threat modeling.
+      The AI deploys the token smart contract, configures the liquidity pool, and integrates it with major DEXs — all in a seamless workflow.
     cta_btn:
       enable: false
       label: ""
       url: ""
       rel: ""
       target: ""
-  - title: Auto-Remediation Patches
+  - title: Automated Launch & Market Access
     # image: ""
     description_font_size: "" # sm | lg (default - sm)
     description: |
-      Cognitive engine automatically generates merge-ready pull requests and Infrastructure-as-Code patches that resolve findings before they escalate.
+      Your token goes live across supported chains, immediately tradable and liquid, giving your project instant access to real markets and crypto users.
     bounced_content:
       enable: true
       bg_image: "/images/why-us/3.png"
       list:
-        - Risk Assessment
-        - OWASP Top 10
-        - Vulnerability Scan
+        - Ethereum
+        - Binance
+        - Avalanche
+        - Arbitrum
+        - Polygon
+        - Monad
+        - Base
+        - Linea
     cta_btn:
       enable: false
       label: "Good for you"

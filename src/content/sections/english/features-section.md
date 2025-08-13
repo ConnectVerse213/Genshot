@@ -1,13 +1,13 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
 subtitle: Core Capabilities
-title: Advanced AI-Powered **Blockchain Agent**
+title: Advanced AI-Powered **Multi-chain Workflows**
 
 list:
-  - title: Autonomous Testing
-    description: AI-powered agents run continuous security assessments 24/7, modeling every layer from source code to cloud infrastructure with zero manual intervention.
-  - title: MITRE ATT&CK & OWASP
-    description: Full coverage of MITRE ATT&CK framework tactics and comprehensive OWASP Top 10 vulnerability testing with surgical precision.
-  - title: Advanced False Positive Reduction
-    description: Advanced cognitive engine validates findings and assigns contextual Risk Index (0-10) based on exploitability, asset criticality, and blast radius.
+  - title: AI-Powered Token Creation
+    description: Launch a fully functional token in 7 seconds using intelligent prompts, no coding required.
+  - title: Automated Liquidity & DEX Integration
+    description: Automatically sets up liquidity pools and pairs tokens on all major decentralized exchanges.
+  - title: Multi-Chain Support
+    description: Deploy and manage tokens across multiple blockchains seamlessly, expanding reach and scalability.
 ---

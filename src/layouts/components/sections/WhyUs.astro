@@ -199,7 +199,7 @@ const isModernLayout = layout_type === "modern";
                         <div class="draggable-wrapper relative h-full min-h-72 w-full overscroll-contain md:min-h-96">
                           {item.bounced_content?.list.map((item) => (
                             <div
-                              class="draggable bg-primary/50 absolute w-fit cursor-grab rounded-full px-5 py-2 text-sm font-medium whitespace-nowrap text-white select-none md:text-lg"
+                              class="draggable bg-primary/50 absolute w-fit cursor-grab rounded-full px-5 py-2 text-sm font-medium whitespace-nowrap text-white select-none md:text-3xl"
                               set:html={markdownify(item)}
                             />
                           ))}

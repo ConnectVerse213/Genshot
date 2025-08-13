@@ -195,7 +195,7 @@ If you have any questions about these Terms, please contact us:
 **ConnectVerse Corp.**  
 Address: 210, Mahaveer Trishla, RR Nagar, Bengaluru, Karnataka, India  
 Email: connectversesp@gmail.com  
-Phone: +57 320 545 1915  
+Phone: +91 730 645 4612  
 
 **Legal Department:**  
 Email: connectversesp@gmail.com  

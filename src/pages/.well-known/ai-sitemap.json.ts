@@ -28,7 +28,7 @@ export const GET: APIRoute = ({ site }) => {
         topics: ["AI Security", "Red Team", "Penetration Testing", "OWASP", "MITRE ATT&CK"]
       },
       {
-        url: "/ai-red-team/",
+        url: "/genshot-ai/",
         priority: "high",
         content_type: "service_description", 
         description: "Detailed information about AI-powered red team services",

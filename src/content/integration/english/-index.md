@@ -5,9 +5,9 @@ draft: false
 
 sections:
   - title: "" # Optional title for section - (default - category name)
-    description: Keep your security team connected and informed
+    description: Always open for collaborations
     category: collaboration # show integration for this category
   - title: "" # Optional title for section - (default - category name)
-    description: Automate security workflows and alerts
+    description: Automate Multi-chain workflows
     category: automation # show integration for this category
 ---

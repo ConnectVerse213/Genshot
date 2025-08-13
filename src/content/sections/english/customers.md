@@ -1,6 +1,6 @@
 ---
 enable: true # Control the visibility of this section across all pages where it is used
-description: "Trusted By"
+description: "Chains Supported"
 
 marquee:
   # element_width: # width in rem (eg: 10rem or blank if width should be based on item width)
@@ -13,19 +13,19 @@ marquee:
 
 list:
   - src: "/images/customers/1.png"
-    alt: "ConnectVerse"
+    alt: "Ethereum"
   - src: "/images/customers/2.png"
-    alt: "0xGrow"
+    alt: "Binance"
   - src: "/images/customers/3.png"
-    alt: "0xAcademy"
+    alt: "Avalanche"
   - src: "/images/customers/4.png"
-    alt: "FanFi"
-  - src: "/images/customers/1.png"
-    alt: "ConnectVerse"
-  - src: "/images/customers/2.png"
-    alt: "0xGrow"
-  - src: "/images/customers/3.png"
-    alt: "0xAcademy"
-  - src: "/images/customers/4.png"
-    alt: "FanFi"
+    alt: "Arbitrum"
+  - src: "/images/customers/5.png"
+    alt: "Polygon"
+  - src: "/images/customers/6.png"
+    alt: "Monad"
+  - src: "/images/customers/7.png"
+    alt: "Base"
+  - src: "/images/customers/8.png"
+    alt: "Linea"
 ---

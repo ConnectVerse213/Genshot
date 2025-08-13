@@ -10,19 +10,25 @@
       "enable": true,
       "name": "Features",
       "weight": 2,
-      "url": "/content/sections/english/features-section.md"
+      "url": "/features/"
     },
     {
       "enable": true,
       "name": "Why Genshot?",
       "weight": 3,
-      "url": "#why"
+      "url": "/genshot-ai/"
     },
     {
       "enable": true,
       "name": "Pricing",
       "weight": 4,
       "url": "/pricing/"
+    },
+    {
+      "enable": true,
+      "name": "Contact Us",
+      "weight": 4,
+      "url": "/contact/"
     },
 
 
@@ -33,13 +39,13 @@
       "hasMegaMenu": true,
       "cta": {
         "enable": true,
-        "image": "/images/genshot-ai-red-team-dashboard.png",
+        "image": "/images/genshot-genshot-ai-dashboard.png",
         "title": "Experience AI Red Team Testing",
         "description": "See how our autonomous AI agents identify vulnerabilities in your systems.",
         "cta_btn": {
           "enable": true,
-          "label": "Book a Demo",
-          "url": "https://topmate.io/pranavverma",
+          "label": "Join waitlist",
+          "url": "https://forms.gle/REs1cy1qLQjJR9rMA",
           "rel": "",
           "target": "_blank"
         }
@@ -53,21 +59,21 @@
               "icon": "/images/icons/svg/security.svg",
               "name": "Autonomous Agents",
               "description": "AI-powered autonomous agents eliminate manual testing by conducting comprehensive security assessments automatically.",
-              "url": "/ai-red-team/"
+              "url": "/genshot-ai/"
             },
             {
               "enable": true,
               "icon": "/images/icons/svg/focus.svg",
               "name": "MITRE ATT&CK Coverage",
               "description": "Full coverage of MITRE ATT&CK framework tactics and techniques to simulate real-world attack scenarios.",
-              "url": "/ai-red-team/"
+              "url": "/genshot-ai/"
             },
             {
               "enable": true,
               "icon": "/images/icons/svg/time.svg",
               "name": "OWASP Top 10 Coverage",
               "description": "Complete testing coverage for all OWASP Top 10 vulnerabilities including injection attacks, broken authentication, and security misconfigurations.",
-              "url": "/ai-red-team/"
+              "url": "/genshot-ai/"
             },
             {
               "enable": true,
@@ -144,20 +150,14 @@
   "footer_menu_quick_link": [
     {
       "enable": true,
+      "name": "Contact Us",
+      "url": "/contact/",
+      "weight": 0
+    },
+    {
+      "enable": true,
       "name": "Pricing",
       "url": "/pricing/",
-      "weight": 0
-    },
-    {
-      "enable": true,
-      "name": "Integration",
-      "url": "/integration/",
-      "weight": 0
-    },
-    {
-      "enable": true,
-      "name": "AI Red Team",
-      "url": "/ai-red-team/",
       "weight": 0
     },
     {
@@ -165,19 +165,37 @@
       "name": "Faq",
       "url": "/faq/",
       "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "0xAcademy",
+      "url": "https://0xAcademy.xyz",
+      "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "0xGrow",
+      "url": "https://0xGrow.xyz",
+      "weight": 0
+    },
+    {
+      "enable": true,
+      "name": "FanFi",
+      "url": "https://fanfi.space",
+      "weight": 0
     }
   ],
   "footer_menu_resources": [
     {
       "enable": true,
-      "name": "Blog",
-      "url": "/blog/",
+      "name": "Product Demo",
+      "url": "https://genshot-ai.vercel.app/",
       "weight": 0
     },
     {
       "enable": true,
-      "name": "Integration",
-      "url": "/integration/",
+      "name": "Version Log",
+      "url": "/changelog/",
       "weight": 0
     }
   ],

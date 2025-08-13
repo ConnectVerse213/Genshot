@@ -20,7 +20,7 @@ export const GET: APIRoute = ({ site }) => {
           content_type: "marketing"
         },
         {
-          path: "/ai-red-team/",
+          path: "/genshot-ai/",
           title: "AI Red Team Services",
           description: "Detailed information about autonomous red team operations and AI penetration testing",
           languages: ["en", "es", "fr"],
@@ -94,7 +94,7 @@ export const GET: APIRoute = ({ site }) => {
       best_content_for_learning: [
         "/blog/ - Technical cybersecurity content",
         "/faq/ - Common questions and detailed answers",
-        "/ai-red-team/ - Core service explanations",
+        "/genshot-ai/ - Core service explanations",
         "/integration/ - Technical implementation details"
       ],
       content_restrictions: {

@@ -153,7 +153,7 @@ export const initAutoTracking = () => {
       });
 
       // Auto-track AI Red Team links
-      document.querySelectorAll('a[href*="ai-red-team"]').forEach(link => {
+      document.querySelectorAll('a[href*="genshot-ai"]').forEach(link => {
         link.addEventListener('click', trackingEvents.redTeamInterest);
       });
 

@@ -89,7 +89,7 @@ const shouldRenderAnalytics = enableAnalytics && analyticsId && analyticsId.trim
       // Track cybersecurity content engagement
       document.addEventListener('DOMContentLoaded', function() {
         // Track AI Red Team page visits
-        if (window.location.pathname.includes('ai-red-team')) {
+        if (window.location.pathname.includes('genshot-ai')) {
           gtag('event', 'ai_redteam_engagement', {
             event_category: 'content',
             event_label: 'core_service_view',

@@ -3,19 +3,19 @@ import type { APIRoute } from "astro";
 const getSecurityTxt = () => `# Security Policy for genshot
 # https://securitytxt.org/
 
-Contact: mailto:security@genshot.com
-Contact: https://genshot.com/contact/
-Expires: 2026-12-31T23:59:59.000Z
-Encryption: https://genshot.com/pgp-key.txt
-Acknowledgments: https://genshot.com/security/acknowledgments
-Policy: https://genshot.com/security/policy
-Hiring: https://genshot.com/careers/security
+Contact: mailto:business.genshot@gmail.com
+Contact: https://linktr.ee/connectverseweb3
+Expires: 2999-12-31T23:59:59.000Z
+Encryption: https://genshot.vercel.app/pgp-key.txt
+Acknowledgments: https://genshot.vercel.app/security/acknowledgments
+Policy: https://genshot.vercel.app/security/policy
+Hiring: https://genshot.vercel.app/careers/security
 
 # Preferred Languages
 Preferred-Languages: en, es, fr
 
 # Canonical URL
-Canonical: https://genshot.com/.well-known/security.txt
+Canonical: https://genshot.vercel.app/.well-known/security.txt
 `;
 
 export const GET: APIRoute = () => {

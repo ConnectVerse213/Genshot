@@ -180,10 +180,10 @@ For any questions about this Privacy Policy or to exercise your rights, please c
 **ConnectVerse Corp.**  
 Address: 210, Mahaveer Trishla, RR Nagar, Bengaluru, Karnataka, India  
 Email: connectversesp@gmail.com  
-Phone: +57 320 545 1915  
+Phone: +91 730 645 4612  
 
 **Data Protection Officer (for EU matters):**  
-Email: dpo@genshot.com  
+Email: business.genshot@gmail.com  
 
 **Representative in the EU:**  
 [To be appointed as needed]
